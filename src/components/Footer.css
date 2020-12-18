@@ -1,0 +1,15 @@
+.footer-wrapper {
+    border-top: 1px solid lightgray;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.footer-about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright {
+    border-top: 1px solid lightgray;
+    background-color: #f7f7f7;
+}

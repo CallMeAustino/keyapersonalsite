@@ -52,7 +52,7 @@ function Navbar() {
                             <Link to='/commission' className='nav-links' onClick={closeMobileMenu}>Commission</Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Commission</Button>} 
+                    {button && <Button address='/commission' buttonStyle='btn--outline'>Commission</Button>} 
                 </div>
             </nav>    
         </>
