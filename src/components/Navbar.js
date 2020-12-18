@@ -31,7 +31,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         KEYA  
                         <FontAwesomeIcon style={{marginLeft: 15 }}icon={['fas', 'paint-brush']}/>
                     </Link>
@@ -47,6 +47,9 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link to='/experiences' className='nav-links' onClick={closeMobileMenu}>Experiences</Link>
+                        </li>
+                        <li className='nav-links-mobile'>
+                            <Link to='/commission' className='nav-links' onClick={closeMobileMenu}>Commission</Link>
                         </li>
                     </ul>
                     {button && <Button buttonStyle='btn--outline'>Commission</Button>} 
