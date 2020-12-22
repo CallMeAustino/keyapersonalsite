@@ -1,0 +1,27 @@
+.about-img {
+    background-size: stretch;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.about-container {
+    padding: 100px;
+    background-color: rgb(209, 242, 253);
+}
+
+.about-blurb {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about-blurb-body {
+    background-color: rgb(255, 239, 241);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.first-paragraph::first-letter{
+    font-size: 300%;
+}

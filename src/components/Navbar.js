@@ -32,7 +32,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        KEYA  
+                        Keya 
                         <FontAwesomeIcon style={{marginLeft: 15 }}icon={['fas', 'paint-brush']}/>
                     </Link>
                     <div className='menu-icon'>

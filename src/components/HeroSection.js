@@ -10,7 +10,7 @@ const HeroSection = () => {
             <h1>Artwork by Keya You</h1>
             <p>Learn more about the artist.</p>
             <div className="hero-btns">
-            <Button address='/portfolio' className=
+            <Button address='/Artwork' className=
                 'btn--primary' 
                 buttonStyle='btn--outline'
                 buttonSize='btn--large'>
